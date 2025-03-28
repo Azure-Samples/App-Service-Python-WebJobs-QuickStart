@@ -1,57 +1,12 @@
-# Project Name
+# App Service Python WebJob QuickStart
 
-(short, 1-3 sentenced, description of the project)
+Getting started with Azure App Service WebJobs using Python. Deployo and run your firsty Python WebJob on App Service. This WebJob outputs the curren time to the console. 
 
-## Features
-
-This project framework provides the following features:
-
-* Feature 1
-* Feature 2
-* ...
-
-## Getting Started
 
 ### Prerequisites
 
-(ideally very short, if any)
+You need to have an App Service Plan and Web App using Python 3.13 to run this application.
 
-- OS
-- Library version
-- ...
+### Running the App
 
-### Installation
-
-(ideally very short)
-
-- npm install [package name]
-- mvn install
-- ...
-
-### Quickstart
-(Add steps to get up and running quickly)
-
-1. git clone [repository clone url]
-2. cd [repository name]
-3. ...
-
-
-## Demo
-
-A demo app is included to show how to use the project.
-
-To run the demo, follow these steps:
-
-(Add steps to start up the demo)
-
-1.
-2.
-3.
-
-## Resources
-
-(Any additional resources or related projects)
-
-- Link to supporting information
-- Link to similar sample
-- ...
+After cloning the repo, create a zip archive of `run.sh` and `webjob.py`, for example, `zip webjob.zip run.sh webjob.py`. Then upload this zip to your App Service Web App under Settings > WebJobs > Add. After naming your WebJob and choosing Scheduled or Continuous, you can run the WebJob manually and inspect the logs to ensure it ran properly. 
