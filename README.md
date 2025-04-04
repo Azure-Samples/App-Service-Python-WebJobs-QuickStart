@@ -1,6 +1,6 @@
 # App Service Python WebJob QuickStart
 
-Getting started with Azure App Service WebJobs using Python. Deploy and run your first Python WebJob on App Service. This WebJob outputs the curren time to the console. 
+Getting started with Azure App Service WebJobs using Python. Deploy and run your first Python WebJob on App Service. This WebJob outputs the current time to the console. 
 
 
 ### Prerequisites
